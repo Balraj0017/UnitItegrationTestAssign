@@ -1,0 +1,42 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.question1.PasswordValidationsTest, org.scalatest.tools.Framework$$anon$1@4ed4951b, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.question2.NumberTest, org.scalatest.tools.Framework$$anon$1@4ed4951b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPasswordValidationsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fulfill all the conditions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not contain any space[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should contain more than 8 characters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should contain less than 15 characters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should contain at least one special character ( @, #, %, &amp;, !, $, etc[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid if it does not contain any number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should contain at least one lowercase[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should contain at least one Uppercase[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNumberTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFactorial[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be Positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFactorial[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 1 if user input 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFactorial[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 1 if user input is 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPalindrome[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return true if the user input the true palindrome number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPalindrome[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false if the user input is not a palindrome[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPalindrome[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return true if the user input 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPalindrome[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false if the user input is negative[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 679 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 15[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 15, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.question1.PasswordValidationsTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.question2.NumberTest[0m

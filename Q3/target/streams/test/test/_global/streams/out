@@ -1,0 +1,68 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.request.CompanyImplUnitTest, org.scalatest.tools.Framework$$anon$1@4f5fc830, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.validator.CompanyValidatorUnitTest, org.scalatest.tools.Framework$$anon$1@4f5fc830, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.validator.CompanyValidatorIntegrationTest, org.scalatest.tools.Framework$$anon$1@4f5fc830, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.request.CompanyImplIntegrationTest, org.scalatest.tools.Framework$$anon$1@4f5fc830, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.db.CompanyReadDtoTest, org.scalatest.tools.Framework$$anon$1@4f5fc830, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.validator.EmailValidatorUnitTest, org.scalatest.tools.Framework$$anon$1@4f5fc830, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyImplIntegrationTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not get created as it already exists[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not get created as email id is invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not get created as email id is invalid and company already exists[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get created[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyReadDtoTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmailValidatorUnitTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32memail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32memail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid if @ is not present there[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32memail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid if it is Starting with Special Character'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32memail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid if there is any space between it[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32memail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid if it is not as per the rule'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyValidatorIntegrationTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return: already exists[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 'invalid email id'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 'invalid email id and company already exists'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 'valid'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyImplUnitTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should already present[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get created[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not get created due to invalid email[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not get created due to invalid email and company already exists[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyValidatorUnitTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should returned already exists[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should returned invalid email id[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should created successfully[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 306 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 22[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 22, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.validator.CompanyValidatorIntegrationTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.request.CompanyImplIntegrationTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.validator.CompanyValidatorUnitTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.request.CompanyImplUnitTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.validator.EmailValidatorUnitTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.db.CompanyReadDtoTest[0m
