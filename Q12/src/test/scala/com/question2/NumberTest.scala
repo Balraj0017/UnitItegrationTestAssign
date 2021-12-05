@@ -5,8 +5,8 @@ import org.scalatest.flatspec.AnyFlatSpec
 class NumberTest extends AnyFlatSpec {
   val obj= new Number
   "Factorial " should "be Positive" in{
-    val result: Int= obj.factorialOf(6)
-    assert(result==720)
+    val result: Int= obj.factorialOf(4)
+    assert(result==24)
   }
   "Factorial" should "return 1 if user input 0" in{
     val result: Int= obj.factorialOf(0)
@@ -18,11 +18,11 @@ class NumberTest extends AnyFlatSpec {
   }
 
   "Palindrome " should "return true if the user input the true palindrome number" in{
-    val result= obj.isPalindrome(123321)
+    val result= obj.isPalindrome(987789)
     assert(result==true)
   }
   "Palindrome" should "return false if the user input is not a palindrome " in{
-    val result= obj.isPalindrome(123)
+    val result= obj.isPalindrome(987)
     assert(result==false)
   }
   "Palindrome" should "return true if the user input 0" in{
@@ -30,7 +30,7 @@ class NumberTest extends AnyFlatSpec {
     assert(result==true)
   }
   "Palindrome" should "return false if the user input is negative" in{
-    val result = obj.isPalindrome(-6)
+    val result = obj.isPalindrome(-987)
     assert(result==false)
   }
 }
